@@ -1,0 +1,58 @@
+body{
+background-color: #2C3333;
+text-align: center;
+font-family: "Montserrat";
+}
+
+h1{
+  color: #F5F2E7;
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 900;
+}
+
+#message{
+  color: #FF9F45;
+}
+.white{
+  color: #fff;
+}
+
+.scoreboard{
+  color: #000;
+  padding: 2%;
+  background-color: #F5F2E7;
+  border-radius: 20px;
+  width: 50%;
+  margin:3% auto;
+}
+
+
+
+.player{
+  background-color: #91C483;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.images{
+
+  border-radius: 30%;
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  }
+
+.images:hover{
+    cursor: pointer;
+
+  }
+
+
+
+  /* Final move section */
+
+
+  .final{
+    display: none;
+  }
