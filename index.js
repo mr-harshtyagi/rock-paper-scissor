@@ -18,7 +18,7 @@ for (var i = 0; i < 3; i++) {
 
     switch (computerMove) {
       case 1:
-        computerMove="stone";
+        computerMove="rock";
         break;
       case 2:
         computerMove="paper";
@@ -31,7 +31,7 @@ for (var i = 0; i < 3; i++) {
          result.innerHTML="ERROR 404";
     }
   var userMove=this.id;
-    if(userMove=="stone"){
+    if(userMove=="rock"){
        if(computerMove=="paper"){
           result.innerHTML="YOU LOSE😢";
           c++;
@@ -42,7 +42,7 @@ for (var i = 0; i < 3; i++) {
           u++;
           userScore.innerHTML=u;
        }
-       if(computerMove=="stone"){
+       if(computerMove=="rock"){
           result.innerHTML="It's a DRAW";
 
        }
@@ -54,7 +54,7 @@ for (var i = 0; i < 3; i++) {
          c++;
          computerScore.innerHTML=c;
       }
-      if(computerMove=="stone"){
+      if(computerMove=="rock"){
          result.innerHTML="YOU WON😍";
          u++;
          userScore.innerHTML=u;
@@ -66,7 +66,7 @@ for (var i = 0; i < 3; i++) {
 
     }
     if(userMove=="scissor"){
-      if(computerMove=="stone"){
+      if(computerMove=="rock"){
          result.innerHTML="YOU LOSE😢";
          c++;
          computerScore.innerHTML=c;
@@ -93,6 +93,7 @@ for (var i = 0; i < 3; i++) {
       final.style.display="none";
       initial.style.display="flex";
       message.innerHTML= "CHOOSE AGAIN TO PLAY FURTHER";
+      result.innerHTML="PLAY AGAIN"
     },5000);
 
 
